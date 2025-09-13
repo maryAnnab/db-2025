@@ -16,7 +16,7 @@ async def main():
     #     await repo.update(user_id=u.id, age=u.age + 1)
     #
     # print(z)
-    zz = await repo.delete(user_id=uuid4()) # no such user
+    zz = await repo.delete(user_id=uuid4())  # no such user
     print(f'removed? {zz}')
 
 

@@ -8,7 +8,7 @@ from asyncpg.pool import Pool
 
 async def get_db_connection_pool() -> Pool:
     """
-    Creates connection pool to the DB; DB_URL is taken from envvar (and also .env).
+    Creates a connection pool to the DB; DB_URL is taken from envvar (and also .env).
     :return: connection pool or RuntimeError if connecting to the DB is not possible
     """
     load_dotenv()

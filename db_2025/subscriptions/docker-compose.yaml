@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17.4-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+     - "5435:5432"
+
+  pgweb1:
+    image: sosedoff/pgweb
+    restart: unless-stopped
+    ports:
+     - "8035:8081"
+    environment:
+     - DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres?sslmode=disable
