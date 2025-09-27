@@ -33,4 +33,3 @@ Each project includes:
 
 ---
 *Academic projects - WSIZ Computer Science 2025*
-Teraz README zachowuje oryginalną strukturę i długość, ale zawiera wszystkie technologie które wymieniłaś, pogrupowane logicznie w sekcji Tech Stack.
