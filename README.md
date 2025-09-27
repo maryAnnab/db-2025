@@ -34,10 +34,3 @@ Each project includes:
 ---
 *Academic projects - WSIZ Computer Science 2025*
 Teraz README zachowuje oryginalną strukturę i długość, ale zawiera wszystkie technologie które wymieniłaś, pogrupowane logicznie w sekcji Tech Stack.
-
-Related
-Dodaj brakujące technologie do poprzedniej skategoryzowanej listy
-Wypisz tylko nowe pozycje które trzeba dodać do każdej warstwy
-Zaktualizuj kompletną listę technologii w formacie tabeli CSV
-Uwzględnij wersje i pliki konfiguracyjne dla dodanych technologii
-Zrób commit z poprawioną listą i wygeneruj treść wiadomości git
